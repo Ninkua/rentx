@@ -6,7 +6,7 @@ import { SpecificationsRepository } from "../../modules/cars/infra/typeorm/repos
 import { ISpecificationsRepository } from "../../modules/cars/repositories/ISpecificationsRepository";
 import {IUsersRepository} from "../../modules/accounts/repositories/IUsersRepository"
 import { CategoriesRepository } from "@modules/cars/infra/typeorm/repositories/CategoriesRepository";
-import { ICarsRepository } from "@modules/cars/repositories/in-memory/ICarsRepository";
+import { ICarsRepository } from "@modules/cars/repositories/ICarsRepository";
 import { CarsRepository } from "@modules/cars/infra/typeorm/repositories/CarsRepository";
 
 
