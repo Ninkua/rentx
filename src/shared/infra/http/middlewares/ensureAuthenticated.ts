@@ -26,9 +26,9 @@ interface IPayload{
                 "cfe275a5908b5650488e0b0342c2d6cc"
             ) as IPayload;
 
-            const usersrepositoy = new UsersRepository();
+            const usersRepository = new UsersRepository();
 
-            const user = await usersrepositoy.findById(user_id);
+            const user = await usersRepository.findById(user_id);
 
             if(!user){
                 throw new AppError("USer does not exists!", 401)
