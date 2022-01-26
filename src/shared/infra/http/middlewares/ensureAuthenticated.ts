@@ -31,7 +31,7 @@ interface IPayload{
             const user = await usersRepository.findById(user_id);
 
             if(!user){
-                throw new AppError("USer does not exists!", 401)
+                throw new AppError("User does not exists!", 401)
             }
 
             request.user = { 

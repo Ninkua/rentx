@@ -49,7 +49,7 @@ class AuthenticateUserUseCase{
             token,
             user: {
                 name: user.name,
-                email: user.password
+                email: user.email
             }, 
         }
 
